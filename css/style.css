@@ -1,3 +1,7 @@
+/* Importation du fichier normalize.css */
+
+@import "./normalize.css";
+
 /* BASE */
 
 * {
@@ -121,11 +125,6 @@ nav .link a:hover {
   padding: 0 15px;
   border-radius: 0px 15px 15px 0px;
   font-weight: bold;
-  transition: 1s;
-}
-
-.search .bar button:hover {
-  background-color: blue;
 }
 
 /* FILTRES */
@@ -250,13 +249,7 @@ nav .link a:hover {
   border-radius: 20px;
   overflow: hidden;
   display: flex;
-  transition: 0.2s linear;
 }
-
-.thumbnail-acco:hover {
-  transform: scale(1.06);
-}
-
 
 .thumbnail-acco .image {
   flex: 2.5;
@@ -350,12 +343,8 @@ nav .link a:hover {
   border-radius: 20px;
   overflow: hidden;
   display: flex;
-  transition: 0.2s linear;
 }
 
-.thumbnail-mp:hover {
-  transform: scale(1.06);
-}
 
 .thumbnail-mp .image {
   flex: 1;
@@ -435,11 +424,6 @@ nav .link a:hover {
   overflow: hidden;
   display: flex;
   margin-top: 20px;
-  transition: 0.2s linear;
-}
-
-.thumbnail-activity:hover {
-  transform: scale(1.06);
 }
 
 .thumbnail-activity__group1 {
@@ -650,11 +634,6 @@ nav .link a:hover {
     padding: 16px 17px;
     border-radius: 15px;
     color: white;
-    transition: 1s;
-  }
-
-  .search .bar i:nth-child(3):hover {
-    background-color: blue;
   }
 
   .search .bar button {
