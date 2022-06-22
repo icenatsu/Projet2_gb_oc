@@ -710,16 +710,17 @@ nav .link a:hover {
 
   .search .bar input {
     width: 250px;
-    position: relative;
   }
 
   .search .bar i:nth-child(3) {
     display: flex;
-    flex-grow: 0.01;
+    position: absolute;
     background-color: #0065FC;
-    padding: 16px 17px;
+    padding: 17px 17px;
     border-radius: 15px;
     color: white;
+    margin-right: -300px;
+
   }
 
   .search .bar button {
