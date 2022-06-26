@@ -404,12 +404,10 @@ nav .link a:hover {
 
 .thumbnail-mp a .description .note--starsblue {
   color: #0065FC;
-
 }
 
 .thumbnail-mp a .description .note--starsgrey {
   color: #F2F2F2;
-
 }
 
 /* ACTIVITES */
@@ -428,9 +426,7 @@ nav .link a:hover {
 
 .activity h3 {
   font-size: 17px;
-  height: 20px;
-  flex: 0.5;
-  padding: 20px;
+  padding: 17px 20px;
 }
 
 .container-activity-thumbnail {
@@ -475,7 +471,7 @@ nav .link a:hover {
 }
 
 .thumbnail-activity_3_4 .thumbnail-activity:nth-child(1) a {
-  height: 190px;
+  height: 240px;
 }
 
 .thumbnail-activity_3_4 .thumbnail-activity:nth-child(2) a {
@@ -491,7 +487,7 @@ nav .link a:hover {
 }
 
 .thumbnail-activity_5_6 .thumbnail-activity:nth-child(2) a {
-  height: 190px;
+  height: 210px;
 }
 
 .thumbnail-activity .image {
