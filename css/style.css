@@ -226,7 +226,7 @@ nav .link a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px 30px;
+  padding: 20px 0px;
 }
 
 .accommodation h2 {
@@ -430,7 +430,6 @@ nav .link a:hover {
 .activity h2 {
   font-size: 30px;
   margin-top: 10px;
-  margin-left: 10px;
 }
 
 .activity h3 {
@@ -727,6 +726,7 @@ nav .link a:hover {
     background-color: white;
     width: 95%;
     margin: auto;
+    padding: 0;
   }
 
   .accommodation h2 {
