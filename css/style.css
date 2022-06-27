@@ -611,6 +611,7 @@ nav .link a:hover {
 
   .thumbnail-activity:nth-child(1) a,
   .thumbnail-activity_3_4 .thumbnail-activity a,
+  .thumbnail-activity_3_4 .thumbnail-activity:nth-child(1) a,
   .thumbnail-activity_3_4 .thumbnail-activity:nth-child(2) a,
   .thumbnail-activity:nth-child(3) a,
   .thumbnail-activity_5_6 .thumbnail-activity:nth-child(1) a,
@@ -768,8 +769,12 @@ nav .link a:hover {
     margin-left: 10px;
   }
 
-  .thumbnail-activity {
+  .container-activity-thumbnail {
     width: 95%;
+  }
+
+  .thumbnail-activity {
+    width: 100%;
     margin: 5px auto;
   }
 
