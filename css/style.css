@@ -191,8 +191,6 @@ nav .link a:hover {
 
 }
 
-
-
 /* INFO */
 
 .info {
@@ -453,6 +451,7 @@ nav .link a:hover {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  width: 97.5%;
 
 }
 
