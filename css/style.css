@@ -10,10 +10,10 @@
   box-sizing: border-box;
 }
 
-/* body {
-  width: 1440px;
+body {
+  max-width: 1440px;
   margin: auto
-} */
+}
 
 /* Typography */
 
@@ -35,7 +35,7 @@ ul {
 /* HEADER */
 
 header {
-  width: 80%;
+  width: 95%;
   height: 80px;
   margin: auto;
   margin-top: 20px;
@@ -71,18 +71,19 @@ nav .link a:hover {
 /* RECHERCHE */
 
 .search {
-  width: 80%;
+  width: 95%;
   margin: auto;
   margin-top: 20px;
 }
 
-.search .title {
+.search h1 {
   padding-bottom: 10px;
   margin-bottom: 0;
+  font-size: 24px;
 }
 
 .search .substitle {
-  font-size: 15px;
+  font-size: 17px;
   padding-bottom: 10px;
 }
 
@@ -132,11 +133,15 @@ nav .link a:hover {
 /* FILTRES */
 
 .filter {
-  width: 80%;
+  width: 95%;
   margin: auto;
   margin-top: 20px;
   display: flex;
   align-items: center;
+}
+
+.filter h2 {
+  font-size: 20px;
 }
 
 .filter .icon ul {
@@ -191,7 +196,7 @@ nav .link a:hover {
 /* INFO */
 
 .info {
-  width: 80%;
+  width: 95%;
   margin: auto;
   margin-top: 20px;
   display: flex;
@@ -208,19 +213,24 @@ nav .link a:hover {
   margin-right: 5px;
 }
 
+.info p {
+  font-size: 17px;
+  margin-left: 10px;
+}
+
 /* SECTION HEBERGEMENT + PLUS POPULAIRES */
 
 .acco-and-mp {
-  width: 80%;
-  margin: auto;
   display: flex;
   justify-content: center;
+  width: 95%;
+  margin: auto;
 }
 
 /* HEBERGEMENT */
 
 .accommodation {
-  flex: 2.5;
+  flex: 3;
   background-color: #F2F2F2;
   border-radius: 20px;
   display: flex;
@@ -231,7 +241,7 @@ nav .link a:hover {
 
 .accommodation h2 {
   padding-top: 20px;
-  font-size: 30px;
+  font-size: 24px;
   margin-left: 40px;
   margin-bottom: 15px;
 }
@@ -239,7 +249,7 @@ nav .link a:hover {
 .accommodation .more {
   margin: 20px 35px;
   font-weight: 700;
-  font-size: 20.8px;
+  font-size: 18px;
 }
 
 .container-acco-thumbnail {
@@ -260,9 +270,9 @@ nav .link a:hover {
   display: flex;
   flex-direction: column;
   background-color: white;
-  width: 290px;
-  height: 210px;
-  margin: 15px 15px;
+  width: 235px;
+  height: 190px;
+  margin: 15px;
   cursor: pointer;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 12px 18px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -328,11 +338,11 @@ nav .link a:hover {
 /* PLUS POPULAIRES */
 
 .most-popular {
-  flex: 0.5;
+  flex: 1;
   background-color: #F2F2F2;
   border-radius: 20px;
   padding: 20px 30px;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .most-popular .title-and-icon {
@@ -343,7 +353,7 @@ nav .link a:hover {
 
 .most-popular h2 {
   padding-top: 20px;
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 15px;
 }
 
@@ -364,30 +374,30 @@ nav .link a:hover {
 .thumbnail-mp a {
   display: flex;
   background-color: white;
-  width: 390px;
-  height: 150px;
+  width: 310px;
+  height: 130px;
   margin-top: 30px;
   cursor: pointer;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 12px 18px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   overflow: hidden;
-  display: flex;
+  margin-top: 20px;
 }
 
 .thumbnail-mp .image {
-  flex: 1;
+  flex: 1.5;
 }
 
 .thumbnail-mp .image img {
-  width: 140px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   padding: 7px;
   border-radius: 20px 0 0 20px;
   object-fit: cover;
 }
 
 .thumbnail-mp a .description {
-  flex: 2;
+  flex: 2.5;
   display: flex;
   flex-direction: column;
 }
@@ -396,6 +406,7 @@ nav .link a:hover {
   flex: 1;
   margin-top: 10px;
   font-weight: bold;
+  font-size: 18px;
 }
 
 .thumbnail-mp a .description .rate {
@@ -422,14 +433,15 @@ nav .link a:hover {
 /* ACTIVITES */
 
 .activity {
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-top: 60px;
 }
 
 .activity h2 {
-  font-size: 30px;
+  font-size: 24px;
   margin-top: 10px;
+  margin-left: 38px;
 }
 
 .activity h3 {
@@ -439,66 +451,33 @@ nav .link a:hover {
 
 .container-activity-thumbnail {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
+
 }
 
-.thumbnail-activity {
+.scale_effet {
   transition: ease 0.1s;
 }
 
-.thumbnail-activity:hover {
+.scale_effet:hover {
   transform: scale(1.05);
 }
 
-.thumbnail-activity_3_4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
-.thumbnail-activity_5_6 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.thumbnail-activity a {
-  width: 280px;
+.thumbnail-activity_large_card a {
   flex-direction: column;
   cursor: pointer;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 12px 18px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   overflow: hidden;
   display: flex;
-  margin-top: 20px;
-}
-
-.thumbnail-activity:nth-child(1) a {
+  margin: 30px auto;
+  width: 80%;
   height: 440px;
 }
 
-.thumbnail-activity_3_4 .thumbnail-activity:nth-child(1) a {
-  height: 240px;
-}
-
-.thumbnail-activity_3_4 .thumbnail-activity:nth-child(2) a {
-  height: 160px;
-}
-
-.thumbnail-activity:nth-child(3) a {
-  height: 440px;
-}
-
-.thumbnail-activity_5_6 .thumbnail-activity:nth-child(1) a {
-  height: 180px;
-}
-
-.thumbnail-activity_5_6 .thumbnail-activity:nth-child(2) a {
-  height: 210px;
-}
-
-.thumbnail-activity .image {
+.thumbnail-activity_large_card a img {
   border-radius: 20px 20px 0 0;
   width: 100%;
   height: 100%;
@@ -507,17 +486,67 @@ nav .link a:hover {
   flex: 5.5;
 }
 
+.thumbnail-activity_mini_cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  height: 470px;
+
+}
+
+.mc1 a,
+.mc2 a,
+.mc3 a,
+.mc4 a {
+  flex-direction: column;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 12px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.image {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  flex: 5.5;
+}
+
+.mc1 a {
+  height: 240px;
+}
+
+.mc2 a {
+  height: 160px;
+}
+
+.mc3 a {
+  height: 180px;
+}
+
+.mc4 a {
+  height: 210px;
+}
+
+
+
 /* FOOTER */
 
 .footer {
   margin-top: 60px;
-  padding: 50px 0px;
+  padding: 50px 10px;
   background-color: #F2F2F2;
   width: 100%;
 }
 
 .container-footer {
-  width: 80%;
+  width: 95%;
   margin: auto;
   display: flex;
 }
@@ -557,10 +586,6 @@ nav .link a:hover {
     margin-right: 10px;
   }
 
-  .search .bar {
-    justify-content: center;
-  }
-
   .acco-and-mp {
     flex-direction: column-reverse;
     align-items: center;
@@ -585,7 +610,7 @@ nav .link a:hover {
   }
 
   .thumbnail-mp .image {
-    flex: 0;
+    flex: 1;
   }
 
   /* MD 992px => ACTIVITES */
@@ -599,33 +624,32 @@ nav .link a:hover {
 
   .activity h2 {
     margin-left: 0px;
+    margin-bottom: 20px;
   }
 
   .container-activity-thumbnail {
     flex-direction: column;
-    align-items: center;
     width: 100%;
     margin: auto;
   }
 
-  .thumbnail-activity {
+  .thumbnail-activity_large_card a {
     width: 100%;
-    margin: 5px auto;
-  }
-
-  .thumbnail-activity a {
-    width: 100%;
-  }
-
-  .thumbnail-activity:nth-child(1) a,
-  .thumbnail-activity_3_4 .thumbnail-activity a,
-  .thumbnail-activity_3_4 .thumbnail-activity:nth-child(1) a,
-  .thumbnail-activity_3_4 .thumbnail-activity:nth-child(2) a,
-  .thumbnail-activity:nth-child(3) a,
-  .thumbnail-activity_5_6 .thumbnail-activity:nth-child(1) a,
-  .thumbnail-activity_5_6 .thumbnail-activity:nth-child(2) a {
     height: 200px;
+    margin: 20px auto;
   }
+
+  .thumbnail-activity_mini_cards {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .thumbnail-activity_mini_cards a {
+    width: 100%;
+    height: 200px;
+    margin: 20px auto;
+  }
+
 
   /* MD 992px => FOOTER */
 
@@ -670,6 +694,8 @@ nav .link a:hover {
   nav .link-sub>a {
     flex-basis: 50%;
     text-align: center;
+    border-bottom: 3px solid #F2F2F2;
+    padding-top: 0px;
   }
 
   nav .link-sub>a:hover {
@@ -687,7 +713,7 @@ nav .link a:hover {
   }
 
   .search .bar input {
-    width: 250px;
+    width: 240px;
   }
 
   .search .bar .research-responsive {
@@ -697,7 +723,7 @@ nav .link a:hover {
     padding: 17px 17px;
     border-radius: 15px;
     color: white;
-    margin-right: -300px;
+    margin-right: -240px;
     border: none;
   }
 
@@ -724,13 +750,13 @@ nav .link a:hover {
 
   .accommodation {
     background-color: white;
-    width: 95%;
+    width: 100%;
     margin: auto;
     padding: 0;
   }
 
   .accommodation h2 {
-    margin-left: 15px;
+    margin-left: 18px;
   }
 
   .accommodation .more {
@@ -755,14 +781,19 @@ nav .link a:hover {
     border-radius: 0;
     background-color: #F2F2F2;
     padding: 40px 0px;
+    width: 100%;
   }
 
   .most-popular h2 {
-    margin-left: 30px;
+    margin-left: 17px;
+  }
+
+  .title-and-icon i {
+    margin-right: 25px;
   }
 
   .thumbnail-mp a {
-    width: 90%;
+    width: 95%;
     margin: 10px auto;
   }
 
@@ -772,14 +803,6 @@ nav .link a:hover {
     width: 95%;
     margin: auto;
     margin-top: 40px;
-  }
-
-  .activity h2 {
-    margin-left: 10px;
-  }
-
-  .container-activity-thumbnail {
-    width: 95%;
   }
 
   .thumbnail-activity {
@@ -798,7 +821,7 @@ nav .link a:hover {
   }
 
   .container-footer {
-    width: 85%;
+    width: 95%;
     margin: auto;
     flex-direction: column;
   }
