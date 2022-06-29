@@ -267,6 +267,10 @@ nav .link a:hover {
   font-size: 18px;
 }
 
+.accommodation .more:hover {
+  color: var(--primary-color);
+}
+
 .container-acco-thumbnail {
   display: flex;
   flex-wrap: wrap;
@@ -944,12 +948,15 @@ nav .link a:hover {
 
   .thumbnail-mp .image {
     width: 40%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
   }
 
   .thumbnail-mp .description {
     left: 140px;
     top: 0;
     width: 60%;
+    height: 100%;
   }
 
   /* MD 768px => ACTIVITES */
