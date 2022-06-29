@@ -345,7 +345,7 @@ nav .link a:hover {
   height: 100px;
   overflow: hidden;
   padding-left: 15px;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .thumbnail-acco a .description .title {
@@ -674,6 +674,10 @@ nav .link a:hover {
     justify-content: center;
   }
 
+  .thumbnail-acco a .description .title {
+    margin: 5px 0;
+  }
+
 
   /* MD 992px => Plus populaires */
 
@@ -960,7 +964,7 @@ nav .link a:hover {
   }
 
   .thumbnail-acco a .description .title {
-    margin: 0px 0;
+    margin: 2px 0;
   }
 
   /* MD 768px => ACTIVITES */
