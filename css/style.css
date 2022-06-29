@@ -959,6 +959,10 @@ nav .link a:hover {
     height: 100%;
   }
 
+  .thumbnail-acco a .description .title {
+    margin: 0px 0;
+  }
+
   /* MD 768px => ACTIVITES */
 
   .activity {
