@@ -613,6 +613,7 @@ nav .link a:hover {
 .category p {
   font-weight: bold;
   font-size: 19px;
+  margin-bottom: 25px;
 }
 
 .category ul li {
