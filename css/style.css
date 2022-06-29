@@ -351,12 +351,12 @@ nav .link a:hover {
 .thumbnail-acco a .description .title {
   font-size: 18px;
   font-weight: bold;
-  margin: 1px 0;
+  margin: 3px 0;
 }
 
 .thumbnail-acco a .description .rate {
   font-size: 16px;
-  margin: 3px 0;
+  margin: 1px 0;
 }
 
 .thumbnail-acco a .description .rate .price--bold {
@@ -365,7 +365,8 @@ nav .link a:hover {
 
 .thumbnail-acco a .description .note {
   display: flex;
-  margin: 7px 0;
+  position: absolute;
+  bottom: 12px;
 }
 
 .thumbnail-acco a .description .note i {
@@ -465,7 +466,6 @@ nav .link a:hover {
   overflow: hidden;
   padding-left: 15px;
   padding-top: 10px;
-
 }
 
 .thumbnail-mp a .description .title {
@@ -483,8 +483,9 @@ nav .link a:hover {
 }
 
 .thumbnail-mp a .description .note {
+  position: absolute;
   display: flex;
-  margin: 10px 0;
+  bottom: 10px;
 }
 
 .thumbnail-mp a .description .note i {
