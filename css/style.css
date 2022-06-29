@@ -676,6 +676,11 @@ nav .link a:hover {
     margin: 20px auto;
   }
 
+  .most-popular .title-and-icon i {
+    margin-right: 30px;
+    margin-top: 25px;
+  }
+
   .container-mp-thumbnail {
     display: flex;
     flex-wrap: wrap;
@@ -686,7 +691,8 @@ nav .link a:hover {
   .thumbnail-mp {
     max-width: 240px;
     height: 305px;
-    margin-left: 20px;
+    margin-left: 28px;
+    margin-right: 28px;
   }
 
   .thumbnail-mp a {
@@ -908,7 +914,7 @@ nav .link a:hover {
   }
 
   .most-popular .title-and-icon i {
-    margin-right: 10px;
+    margin-right: 15px;
     margin-top: 5px;
   }
 
