@@ -246,19 +246,19 @@ nav .link a:hover {
 
 .accommodation {
   flex: 2;
-  background-color: #F2F2F2;
+  background-color: var(--third-color);
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px 0px;
 }
 
 .accommodation h2 {
   padding-top: 20px;
   font-size: 24px;
-  margin-left: 40px;
+  margin-left: 32px;
   margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 .accommodation .more {
@@ -277,14 +277,14 @@ nav .link a:hover {
 
 .thumbnail-acco {
   background-color: white;
-  max-height: 400px;
+  max-height: 380px;
   cursor: pointer;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 12px 18px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   overflow: hidden;
   padding: 5px;
   position: relative;
-  width: 28%;
+  width: 30%;
   height: 45%;
 }
 
@@ -299,7 +299,7 @@ nav .link a:hover {
 .thumbnail-acco:nth-child(2),
 .thumbnail-acco:nth-child(4),
 .thumbnail-acco:nth-child(5) {
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 
@@ -381,7 +381,6 @@ nav .link a:hover {
   flex: 1;
   background-color: var(--third-color);
   border-radius: 20px;
-  padding: 20px 30px;
   margin-left: 20px;
 }
 
@@ -391,10 +390,17 @@ nav .link a:hover {
   justify-content: space-between;
 }
 
+.most-popular .title-and-icon i {
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
 .most-popular h2 {
   padding-top: 20px;
   font-size: 24px;
+  margin-left: 32px;
   margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 .container-mp-thumbnail {
@@ -402,13 +408,14 @@ nav .link a:hover {
   flex-wrap: wrap;
   flex-direction: column;
   height: 650px;
+
 }
 
 .thumbnail-mp {
   display: flex;
   background-color: white;
   max-width: 350px;
-  height: 150px;
+  height: 162px;
   cursor: pointer;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 12px 18px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -417,7 +424,8 @@ nav .link a:hover {
   position: relative;
   padding: 5px;
   margin-bottom: 20px;
-  margin-left: 35px;
+  margin-left: 45px;
+  margin-right: 45px;
 }
 
 
@@ -442,7 +450,6 @@ nav .link a:hover {
   object-fit: cover;
 }
 
-
 .thumbnail-mp .description {
   position: absolute;
   top: 0;
@@ -452,7 +459,7 @@ nav .link a:hover {
   width: 60%;
   overflow: hidden;
   padding-left: 15px;
-  padding-top: 15px;
+  padding-top: 10px;
 
 }
 
@@ -498,7 +505,7 @@ nav .link a:hover {
 .activity h2 {
   font-size: 24px;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .container-activity-thumbnail {
@@ -605,6 +612,7 @@ nav .link a:hover {
 
 .category p {
   font-weight: bold;
+  font-size: 19px;
 }
 
 .category ul li {
@@ -847,7 +855,7 @@ nav .link a:hover {
 
   .accommodation h2 {
     margin-left: 18px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
 
   .accommodation .more {
@@ -880,7 +888,7 @@ nav .link a:hover {
   .most-popular {
     margin: 0;
     border-radius: 0;
-    padding: 40px 0px;
+    padding: 20px 0px;
     width: 100%;
     margin: 20px auto;
   }
@@ -889,16 +897,15 @@ nav .link a:hover {
     margin-left: 17px;
   }
 
-  .title-and-icon i {
-    margin-right: 25px;
+  .most-popular .title-and-icon i {
+    margin-right: 15px;
   }
-
 
   .container-mp-thumbnail {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 600px;
+    height: 580px;
     width: 95%;
     margin: auto;
   }
@@ -906,6 +913,7 @@ nav .link a:hover {
   .thumbnail-mp {
     max-width: 100%;
     height: 150px;
+    margin: 20px 0;
   }
 
   .thumbnail-mp a {
