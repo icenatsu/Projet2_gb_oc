@@ -10,9 +10,16 @@
   box-sizing: border-box;
 }
 
+
 /* Typography */
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,800;1,100;1,200;1,300;1,400&display=swap");
+
+:root {
+  --primary-color: #0065FC;
+  --secondary-color: #DEEBFF;
+  --third-color: #F2F2F2;
+}
 
 * {
   font-family: "Raleway", sans-serif;
@@ -73,8 +80,8 @@ nav .link a {
 }
 
 nav .link a:hover {
-  border-top: 5px solid #0065FC;
-  color: #0065FC;
+  border-top: 5px solid var(--primary-color);
+  color: var(--primary-color);
   padding-top: 38px;
 }
 
@@ -131,7 +138,7 @@ nav .link a:hover {
 }
 
 .search .bar .research {
-  background-color: #0065FC;
+  background-color: var(--primary-color);
   border: none;
   height: 49px;
   color: white;
@@ -151,7 +158,8 @@ nav .link a:hover {
 }
 
 .filter p {
-  font-size: 20px;
+  font-size: 19px;
+  font-weight: bold;
 }
 
 .filter .icon ul {
@@ -167,7 +175,6 @@ nav .link a:hover {
   border: 3px solid #F2F2F2;
   border-radius: 50px;
   margin-left: 30px;
-  margin-top: 10px;
   height: 55px;
 }
 
@@ -186,17 +193,17 @@ nav .link a:hover {
 
 .filter .icon i {
   margin-right: 10px;
-  color: #0065FC;
+  color: var(--primary-color);
   font-size: 20.8px;
   border-radius: 50px;
   padding: 17px 17px;
-  background-color: #DEEBFF;
+  background-color: var(--secondary-color);
   margin-left: -5px;
 }
 
 .filter .icon ul li:hover i {
   background-color: white;
-  border: 3px solid #F2F2F2;
+  border: 3px solid var(--third-color);
   padding: 14px 14px;
 
 }
@@ -216,7 +223,7 @@ nav .link a:hover {
   border: 1px solid #b1a5a5;
   border-radius: 50%;
   padding: 4px 10px 6px 10px;
-  color: #0065FC;
+  color: var(--primary-color);
   font-size: 16px;
   margin-right: 5px;
 }
@@ -238,7 +245,7 @@ nav .link a:hover {
 /* HEBERGEMENT */
 
 .accommodation {
-  flex: 3;
+  flex: 2;
   background-color: #F2F2F2;
   border-radius: 20px;
   display: flex;
@@ -277,7 +284,7 @@ nav .link a:hover {
   overflow: hidden;
   padding: 5px;
   position: relative;
-  width: 30%;
+  width: 28%;
   height: 45%;
 }
 
@@ -320,11 +327,8 @@ nav .link a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-
   border-radius: 20px 20px 0 0;
 }
-
-
 
 .thumbnail-acco .description {
   position: absolute;
@@ -336,7 +340,7 @@ nav .link a:hover {
   height: 100px;
   overflow: hidden;
   padding-left: 15px;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .thumbnail-acco a .description .title {
@@ -364,18 +368,18 @@ nav .link a:hover {
 }
 
 .thumbnail-acco a .description .note--starsblue {
-  color: #0065FC;
+  color: var(--primary-color);
 }
 
 .thumbnail-acco a .description .note--starsgrey {
-  color: #F2F2F2;
+  color: var(--third-color);
 }
 
 /* PLUS POPULAIRES */
 
 .most-popular {
   flex: 1;
-  background-color: #F2F2F2;
+  background-color: var(--third-color);
   border-radius: 20px;
   padding: 20px 30px;
   margin-left: 20px;
@@ -395,58 +399,75 @@ nav .link a:hover {
 
 .container-mp-thumbnail {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   flex-direction: column;
+  height: 650px;
 }
 
 .thumbnail-mp {
-  transition: ease 0.1s;
-}
-
-.thumbnail-mp:hover {
-  transform: scale(1.05);
-}
-
-.thumbnail-mp a {
   display: flex;
   background-color: white;
-  width: 310px;
-  height: 130px;
-  margin-top: 30px;
+  max-width: 350px;
+  height: 150px;
   cursor: pointer;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 12px 18px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   overflow: hidden;
   margin-top: 20px;
+  position: relative;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
+
+
+.thumbnail-mp a {
+  width: 100%;
+  height: 100%;
+}
+
+.border-img-mp {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
 }
 
 .thumbnail-mp .image {
-  flex: 1.5;
-}
-
-.thumbnail-mp .image img {
-  width: 100%;
+  position: absolute;
   height: 100%;
-  padding: 7px;
+  width: 40%;
   border-radius: 20px 0 0 20px;
   object-fit: cover;
 }
 
-.thumbnail-mp a .description {
-  flex: 2.5;
-  display: flex;
-  flex-direction: column;
+
+.thumbnail-mp .description {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  height: 100%;
+  width: 60%;
+  overflow: hidden;
+  padding-left: 15px;
+  padding-top: 15px;
+
 }
 
 .thumbnail-mp a .description .title {
-  flex: 1;
-  margin-top: 10px;
   font-weight: bold;
   font-size: 18px;
 }
 
 .thumbnail-mp a .description .rate {
   flex: 1;
+  margin-top: 5px;
+}
+
+.thumbnail-mp a .description .rate .price--bold {
+  font-weight: bold;
 }
 
 .thumbnail-mp a .description .note {
@@ -459,11 +480,11 @@ nav .link a:hover {
 }
 
 .thumbnail-mp a .description .note--starsblue {
-  color: #0065FC;
+  color: var(--primary-color);
 }
 
 .thumbnail-mp a .description .note--starsgrey {
-  color: #F2F2F2;
+  color: var(--third-color);
 }
 
 /* ACTIVITES */
@@ -563,20 +584,27 @@ nav .link a:hover {
 .footer {
   margin-top: 60px;
   padding: 50px 10px;
-  background-color: #F2F2F2;
+  background-color: var(--third-color);
   width: 100%;
 }
 
 .container-footer {
   max-width: 1440px;
   margin: auto;
-  display: flex;
+}
+
+.container-category {
   width: 95%;
   margin: auto;
+  display: flex;
 }
 
 .category {
   flex: 1;
+}
+
+.category p {
+  font-weight: bold;
 }
 
 .category ul li {
@@ -639,18 +667,42 @@ nav .link a:hover {
     margin: 20px auto;
   }
 
+  .container-mp-thumbnail {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 350px;
+  }
+
   .thumbnail-mp {
-    width: 100%;
-    margin: 10px auto;
+    max-width: 240px;
+    height: 305px;
+    margin-left: 20px;
   }
 
   .thumbnail-mp a {
     width: 100%;
+    height: 100%;
+    margin: 0;
   }
 
   .thumbnail-mp .image {
-    flex: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+
   }
+
+  .thumbnail-mp .description {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    width: 100%;
+    padding: 10px;
+  }
+
 
   /* MD 992px => ACTIVITES */
 
@@ -665,19 +717,19 @@ nav .link a:hover {
   .thumbnail-activity:nth-child(1) {
     height: 30%;
     margin-bottom: 20px;
-    margin-right: 80px;
+    margin-right: 85px;
   }
 
   .thumbnail-activity:nth-child(2) {
     height: 30%;
     margin-bottom: 20px;
-    margin-right: 80px;
+    margin-right: 85px;
 
   }
 
   .thumbnail-activity:nth-child(3) {
     height: 30%;
-    margin-right: 80px;
+    margin-right: 85px;
   }
 
   .thumbnail-activity:nth-child(4) {
@@ -699,16 +751,8 @@ nav .link a:hover {
 
   /* MD 992px => FOOTER */
 
-
-  .footer {
-    margin-top: 60px;
-    padding: 50px 0px;
-    background-color: #F2F2F2;
-    width: 100%;
-  }
-
-  .container-footer {
-    width: 95%;
+  .container-category {
+    width: 97%;
   }
 
 }
@@ -740,14 +784,14 @@ nav .link a:hover {
   nav .link-sub>a {
     flex-basis: 50%;
     text-align: center;
-    border-bottom: 3px solid #F2F2F2;
+    border-bottom: 3px solid var(--third-color);
     padding-top: 0px;
   }
 
   nav .link-sub>a:hover {
     border-top: none;
-    border-bottom: 3px solid #0065FC;
-    color: #0065FC;
+    border-bottom: 3px solid var(--primary-color);
+    color: var(--primary-color);
     padding-top: 0px;
   }
 
@@ -765,7 +809,7 @@ nav .link a:hover {
   .search .bar .research-responsive {
     display: flex;
     position: absolute;
-    background-color: #0065FC;
+    background-color: var(--primary-color);
     padding: 17px 17px;
     border-radius: 15px;
     color: white;
@@ -836,9 +880,9 @@ nav .link a:hover {
   .most-popular {
     margin: 0;
     border-radius: 0;
-    background-color: #F2F2F2;
     padding: 40px 0px;
     width: 100%;
+    margin: 20px auto;
   }
 
   .most-popular h2 {
@@ -849,9 +893,33 @@ nav .link a:hover {
     margin-right: 25px;
   }
 
-  .thumbnail-mp a {
+
+  .container-mp-thumbnail {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 600px;
     width: 95%;
-    margin: 10px auto;
+    margin: auto;
+  }
+
+  .thumbnail-mp {
+    max-width: 100%;
+    height: 150px;
+  }
+
+  .thumbnail-mp a {
+    margin: 0;
+  }
+
+  .thumbnail-mp .image {
+    width: 30%;
+  }
+
+  .thumbnail-mp .description {
+    left: 140px;
+    top: 0;
+    width: 60%;
   }
 
   /* MD 768px => ACTIVITES */
@@ -910,11 +978,10 @@ nav .link a:hover {
   .footer {
     margin-top: 60px;
     padding: 50px 0px;
-    background-color: #F2F2F2;
     width: 100%;
   }
 
-  .container-footer {
+  .container-category {
     width: 95%;
     margin: auto;
     flex-direction: column;
@@ -923,4 +990,5 @@ nav .link a:hover {
   .category {
     margin-bottom: 40px;
   }
+
 }
