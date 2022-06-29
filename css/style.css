@@ -269,6 +269,7 @@ nav .link a:hover {
 
 .accommodation .more:hover {
   color: var(--primary-color);
+  text-decoration: underline;
 }
 
 .container-acco-thumbnail {
@@ -823,23 +824,21 @@ nav .link a:hover {
   /* MQ 768px => RECHERCHE */
 
   .search .bar {
-    justify-content: center;
     margin-top: 20px;
   }
 
   .search .bar input {
-    width: 240px;
+    width: 75%;
   }
 
   .search .bar .research-responsive {
     display: flex;
-    position: absolute;
     background-color: var(--primary-color);
     padding: 17px 17px;
     border-radius: 15px;
     color: white;
-    margin-right: -240px;
     border: none;
+    margin-left: -20px;
   }
 
   .search .bar .research {
