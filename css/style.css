@@ -845,6 +845,7 @@ nav .link a:hover {
     color: white;
     border: none;
     margin-left: -20px;
+    cursor: grab;
   }
 
   .search .bar .research {
