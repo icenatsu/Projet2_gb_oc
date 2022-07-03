@@ -1,6 +1,6 @@
 /* Importation du fichier normalize.css */
 
-/* @import url("normalize.css"); */
+@import url("normalize.css");
 
 /* BASE */
 
@@ -107,7 +107,6 @@ nav .link a:hover {
 }
 
 .search .bar {
-  position: relative;
   margin-top: 10px;
   display: flex;
 }
