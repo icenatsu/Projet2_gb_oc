@@ -271,7 +271,6 @@ nav .link a:hover {
 
 .accommodation .more:hover {
   color: var(--primary-color);
-  text-decoration: underline;
 }
 
 .container-acco-thumbnail {
@@ -960,10 +959,11 @@ nav .link a:hover {
   }
 
   .thumbnail-mp .description {
-    left: 140px;
+    left: 130px;
     top: 0;
     width: 60%;
     height: 100%;
+    padding-left: 8px;
   }
 
   .thumbnail-acco a .description .title {
