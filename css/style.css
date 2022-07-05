@@ -88,7 +88,7 @@ nav .link a:hover {
 }
 
 main {
-  max-width: 1440px;
+  max-width: var(--width-larg-screen);
   margin: auto;
 }
 
@@ -605,7 +605,6 @@ main {
   background-color: var(--third-color);
   width: 100%;
 }
-
 
 .container-category {
   width: 95%;
