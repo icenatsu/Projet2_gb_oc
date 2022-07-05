@@ -38,20 +38,24 @@ ul {
   transform: scale(1.05);
 }
 
-/* HEADER + MAIN */
-.header_and_main {
-  max-width: 1440px;
-  margin: auto;
-}
-
 
 /* HEADER */
 
 header {
-  width: 95%;
+  width: 100%;
   height: 80px;
   margin: auto;
   margin-top: 20px;
+}
+
+.container-larg-max {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.container-header {
+  width: 95%;
+  margin: auto;
 }
 
 /* NAVIGATION */
@@ -79,6 +83,11 @@ nav .link a:hover {
   border-top: 5px solid var(--primary-color);
   color: var(--primary-color);
   padding-top: 38px;
+}
+
+main {
+  max-width: 1440px;
+  margin: auto;
 }
 
 /* RECHERCHE */
@@ -595,7 +604,7 @@ nav .link a:hover {
   width: 100%;
 }
 
-.container-footer {
+.container-larg-max {
   max-width: 1440px;
   margin: auto;
 }
