@@ -13,6 +13,8 @@
   --primary-color: #0065FC;
   --secondary-color: #DEEBFF;
   --third-color: #F2F2F2;
+
+  --width-larg-screen: 1440px;
 }
 
 * {
@@ -49,7 +51,7 @@ header {
 }
 
 .container-larg-max {
-  max-width: 1440px;
+  max-width: var(--width-larg-screen);
   margin: auto;
 }
 
@@ -604,10 +606,6 @@ main {
   width: 100%;
 }
 
-.container-larg-max {
-  max-width: 1440px;
-  margin: auto;
-}
 
 .container-category {
   width: 95%;
