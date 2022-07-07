@@ -795,6 +795,11 @@ main {
     height: 120px;
   }
 
+  .container-header {
+    width: 100%;
+    margin: auto;
+  }
+
   nav {
     position: relative;
     flex-direction: column;
@@ -813,10 +818,10 @@ main {
   }
 
   nav .link-sub>a {
-    flex-basis: 50%;
+    width: 50%;
     text-align: center;
     border-bottom: 3px solid var(--third-color);
-    padding-top: 0px;
+    padding: 0px;
   }
 
   nav .link-sub>a:hover {
