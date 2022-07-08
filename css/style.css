@@ -691,6 +691,10 @@ main {
     width: 100%;
   }
 
+  .accommodation .title {
+    margin-bottom: 30px;
+  }
+
   .container-acco-thumbnail {
     display: flex;
     flex-wrap: wrap;
@@ -723,7 +727,7 @@ main {
     justify-content: center;
     width: 95%;
     margin: auto;
-    height: 350px;
+    height: 310px;
   }
 
   .thumbnail-mp {
@@ -909,17 +913,19 @@ main {
     width: 95%;
     margin: auto;
     margin-bottom: 20px;
-    margin-top: 5px;
+    margin-top: 0px;
   }
 
   .accommodation h2 {
     margin-left: 0px;
-
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .accommodation .more {
-    margin-top: 20px;
-    margin-left: 13px;
+    margin-top: 50px;
+    width: 95%;
+    margin: 5px auto;
   }
 
   .container-acco-thumbnail {
@@ -962,7 +968,7 @@ main {
     border-radius: 0;
     padding: 20px 0px;
     width: 100%;
-    margin: 20px auto;
+    margin: 10px auto;
   }
 
   .most-popular h2 {
@@ -1020,7 +1026,7 @@ main {
   /* MD 768px => ACTIVITES */
 
   .activity {
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
   .activity h2 {
