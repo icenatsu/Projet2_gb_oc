@@ -330,7 +330,7 @@ main {
 }
 
 
-.thumbnail-acco .image {
+.thumbnail-acco .image:nth-child(1) {
   overflow: hidden;
   position: absolute;
   top: -50px;
@@ -340,6 +340,20 @@ main {
   height: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
+}
+
+.thumbnail-acco .image:nth-child(2) {
+  /* Image pour responsive mobile (largeur trop grande pour une small) */
+  overflow: hidden;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+  display: none;
 }
 
 .thumbnail-acco .description {
@@ -543,7 +557,7 @@ main {
   height: 100%;
 }
 
-.thumbnail-activity img {
+.thumbnail-activity img:nth-child(1) {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
@@ -551,6 +565,18 @@ main {
   width: 100%;
   z-index: -2;
   object-fit: cover;
+}
+
+.thumbnail-activity img:nth-child(2) {
+  /* Image pour responsive mobile (largeur trop grande pour une small) */
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+  object-fit: cover;
+  display: none;
 }
 
 .thumbnail-activity h3 {
@@ -903,6 +929,14 @@ main {
     height: 200px;
   }
 
+  .thumbnail-acco .image:nth-child(1) {
+    display: none;
+  }
+
+  .thumbnail-acco .image:nth-child(2) {
+    display: block;
+  }
+
   .thumbnail-acco:nth-child(4),
   .thumbnail-acco:nth-child(5),
   .thumbnail-acco:nth-child(6) {
@@ -1023,6 +1057,14 @@ main {
 
   .thumbnail-activity:nth-child(6) {
     height: 200px;
+  }
+
+  .thumbnail-activity img:nth-child(1) {
+    display: none;
+  }
+
+  .thumbnail-activity img:nth-child(2) {
+    display: block;
   }
 
 
