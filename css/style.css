@@ -159,7 +159,7 @@ main {
 .filter {
   width: 95%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 25px;
   display: flex;
   align-items: center;
 }
@@ -221,7 +221,7 @@ main {
 .info {
   width: 95%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 25px;
   display: flex;
   align-items: center;
   margin-bottom: 25px;
@@ -663,7 +663,7 @@ main {
   .info {
     width: 95%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 25px;
   }
 
   .filter {
