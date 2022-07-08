@@ -905,10 +905,16 @@ main {
     padding: 0;
   }
 
-  .accommodation h2 {
-    margin-left: 12px;
+  .accommodation .title {
+    width: 95%;
+    margin: auto;
     margin-bottom: 20px;
     margin-top: 5px;
+  }
+
+  .accommodation h2 {
+    margin-left: 0px;
+
   }
 
   .accommodation .more {
@@ -960,8 +966,13 @@ main {
   }
 
   .most-popular h2 {
-    margin-left: 12px;
+    margin-left: 0;
     margin-top: 0;
+  }
+
+  .most-popular .title-and-icon {
+    width: 95%;
+    margin: auto;
   }
 
   .most-popular .title-and-icon i {
