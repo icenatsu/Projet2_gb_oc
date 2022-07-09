@@ -3,7 +3,7 @@ Note de synthèse – Nouveau site
 Booki
 ==
 
-!(../maquettes/Desktop - 1.png)
+!(/ressources/maquettes/Desktop - 1.png)
 
 Voici l’ensemble des points techniques et fonctionnels à prendre en
 compte pour le développement du nouveau site Booki. L’ensemble de ces
