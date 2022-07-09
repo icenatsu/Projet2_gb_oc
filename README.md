@@ -86,3 +86,4 @@ ces deux navigateurs.
 ● Il n’est pas nécessaire de versionner le code.
 
 ● Lien du site : https://icenatsu.github.io/projet2_booki/
+====
