@@ -3,12 +3,13 @@ Note de synthèse – Nouveau site
 Booki
 ==
 
-
-###Voici l’ensemble des points techniques et fonctionnels à prendre en
+Voici l’ensemble des points techniques et fonctionnels à prendre en
 compte pour le développement du nouveau site Booki. L’ensemble de ces
 éléments ont été validés par l’équipe Produit, il est donc important de les
 respecter.
+
 Spécifications fonctionnelles
+===
 
 ● Les usagers pourront rechercher des hébergements dans la ville de
 leur choix. Le champ de recherche est un champ de saisie, le texte
@@ -28,7 +29,9 @@ dessus. Par contre, ils ne doivent pas être fonctionnels.
 ● Les textes “Hébergements” et “Activités”, situés dans l’en-tête, sont
 des liens. Ils doivent mener respectivement vers la section
 “Hébergements à Marseille” et “Activités à Marseille”.
+
 Spécifications techniques
+===
 
 ● Deux maquettes ont été réalisées : l’une desktop et l’autre mobile. Le
 site devra être également adapté aux formats tablette. Pour les
