@@ -1,7 +1,7 @@
-#titre Note de synthèse – Nouveau site
-##titre Booki
+#titreNote de synthèse – Nouveau site
+##titreBooki
 
-###titre Voici l’ensemble des points techniques et fonctionnels à prendre en
+###titreVoici l’ensemble des points techniques et fonctionnels à prendre en
 compte pour le développement du nouveau site Booki. L’ensemble de ces
 éléments ont été validés par l’équipe Produit, il est donc important de les
 respecter.
