@@ -84,3 +84,5 @@ Google Chrome et de Mozilla Firefox. Il faudra tester le prototype sur
 ces deux navigateurs.
 
 ● Il n’est pas nécessaire de versionner le code.
+
+● Lien du site : https://icenatsu.github.io/projet2_booki/
