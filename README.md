@@ -3,7 +3,7 @@ Note de synthèse – Nouveau site
 Booki
 ==
 
-![Booki](/ressources/maquettes/Desktop - 1.png)
+![Booki](https://github.com/icenatsu/projet2_booki/blob/master/ressources/maquettes/Desktop%20-%201.png?raw=true)
 
 Voici l’ensemble des points techniques et fonctionnels à prendre en
 compte pour le développement du nouveau site Booki. L’ensemble de ces
