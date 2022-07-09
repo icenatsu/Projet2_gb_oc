@@ -1,5 +1,8 @@
-#Note de synthèse – Nouveau site
-##Booki
+Note de synthèse – Nouveau site
+=
+Booki
+==
+
 
 ###Voici l’ensemble des points techniques et fonctionnels à prendre en
 compte pour le développement du nouveau site Booki. L’ensemble de ces
