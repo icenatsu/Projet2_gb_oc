@@ -625,7 +625,7 @@ main {
 
 /* FOOTER */
 
-.footer {
+footer {
   margin-top: 60px;
   padding: 50px 10px;
   background-color: var(--third-color);
@@ -1088,7 +1088,7 @@ main {
   /* MD 768px => FOOTER */
 
 
-  .footer {
+  footer {
     margin-top: 60px;
     padding: 50px 0px;
     width: 100%;
